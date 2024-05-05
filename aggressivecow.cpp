@@ -8,10 +8,12 @@
 #include <queue>
 #include <stdlib.h>
 #include <stdbool.h>
+
+
 void merge(int arr[],int low,int mid,int high)
 {
     int n1=mid-low+1;
-    int n2=high-mid;
+    int n2=high-mid; 
     int arr1[n1];
     int arr2[n2];
     for(int i=0;i<n1;i++)
